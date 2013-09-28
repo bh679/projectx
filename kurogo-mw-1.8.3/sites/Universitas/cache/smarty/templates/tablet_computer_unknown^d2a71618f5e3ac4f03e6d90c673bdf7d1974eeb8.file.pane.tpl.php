@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 03:06:04
+<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 03:15:02
          compiled from "/Users/Rory1/Documents/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/modules/news/templates/pane.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:78094509952467fdc30fb97-82727375%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1959496767524681f686f863-89820440%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '78094509952467fdc30fb97-82727375',
+  'nocache_hash' => '1959496767524681f686f863-89820440',
   'function' => 
   array (
   ),
