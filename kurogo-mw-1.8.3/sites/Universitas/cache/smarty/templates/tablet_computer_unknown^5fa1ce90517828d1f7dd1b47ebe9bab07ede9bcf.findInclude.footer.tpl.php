@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 03:15:05
+<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 07:43:07
          compiled from "findInclude:common/templates/footer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:342513550524681f9234611-83158631%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
@@ -7,25 +7,25 @@ $_smarty_tpl->decodeProperties(array (
     '5fa1ce90517828d1f7dd1b47ebe9bab07ede9bcf' => 
     array (
       0 => 'findInclude:common/templates/footer.tpl',
-      1 => 1364681342,
+      1 => 1380352542,
       2 => 'findInclude',
     ),
-    '2f5ebeb9bb2f25ee1eafd5d7712509610c879207' => 
+    '9eb695f39f64f5b476a1fdfbe44cd0fcc3cfa168' => 
     array (
-      0 => '/Users/Rory1/Documents/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/common/templates/footer.tpl',
-      1 => 1364681342,
+      0 => '/Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/common/templates/footer.tpl',
+      1 => 1380352542,
       2 => 'file',
     ),
     '' => 
     array (
       0 => 'findInclude:common/templates/page/moduleDebug.tpl',
-      1 => 1364681342,
+      1 => 1380352542,
       2 => 'findInclude',
     ),
-    'f8b94cdfb5c1d6337cfb7f69abcdec9c791e0632' => 
+    'a7bc7a3e2ccdae5d967f6032d92030fbccb67665' => 
     array (
-      0 => '/Users/Rory1/Documents/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/common/templates/page/login.tpl',
-      1 => 1364681342,
+      0 => '/Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/common/templates/page/login.tpl',
+      1 => 1380352542,
       2 => 'file',
     ),
   ),

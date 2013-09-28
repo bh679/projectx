@@ -1,9 +1,9 @@
-a:3:{s:10:"properties";a:7:{s:15:"inlineCSSBlocks";a:0:{}s:7:"cssURLs";a:0:{}s:22:"inlineJavascriptBlocks";a:0:{}s:28:"inlineJavascriptFooterBlocks";a:0:{}s:25:"onOrientationChangeBlocks";a:0:{}s:12:"onLoadBlocks";a:1:{i:0;s:14:"scrollToTop();";}s:14:"javascriptURLs";a:2:{i:0;s:75:"/min/?g=file-/common/javascript/lib/iscroll-4.2.js&debug=1&config=emergency";i:1;s:74:"/min/?g=file-/common/javascript/lib/ellipsizer.js&debug=1&config=emergency";}}s:9:"minifyCSS";s:1346:"/* Adding url prefix '/device/tablet-computer-unknown/' */
+a:3:{s:10:"properties";a:7:{s:15:"inlineCSSBlocks";a:0:{}s:7:"cssURLs";a:0:{}s:22:"inlineJavascriptBlocks";a:0:{}s:28:"inlineJavascriptFooterBlocks";a:0:{}s:25:"onOrientationChangeBlocks";a:0:{}s:12:"onLoadBlocks";a:1:{i:0;s:14:"scrollToTop();";}s:14:"javascriptURLs";a:2:{i:0;s:75:"/min/?g=file-/common/javascript/lib/iscroll-4.2.js&debug=1&config=emergency";i:1;s:74:"/min/?g=file-/common/javascript/lib/ellipsizer.js&debug=1&config=emergency";}}s:9:"minifyCSS";s:1338:"/* Adding url prefix '/device/tablet-computer-unknown/' */
 
 /* Minify_CSS_UriRewriter::$debugText
 
-docRoot    : /Users/Rory1/Documents/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/www
-currentDir : /Users/Rory1/Documents/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/modules/emergency/css
+docRoot    : /Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/www
+currentDir : /Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/modules/emergency/css
 
 */
 
