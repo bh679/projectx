@@ -7,3 +7,9 @@
 [Sat 09 28 00:54:08 2013]	url_retriever:Warning	URLDataRetriever->retrieveResponse@508	/home/pane?id=social&ajax=1	Gone for https://api.twitter.com/1/statuses/user_timeline.json?screen_name=kurogofwk&trim_user=1
 [Sat 09 28 00:54:16 2013]	url_retriever:Warning	URLDataRetriever->retrieveResponse@508	/home/pane?id=social&ajax=1	Gone for https://api.twitter.com/1/statuses/user_timeline.json?screen_name=kurogofwk&trim_user=1
 [Sat 09 28 00:57:08 2013]	url_retriever:Warning	URLDataRetriever->retrieveResponse@508	/home/pane?id=social&ajax=1	Gone for https://api.twitter.com/1/statuses/user_timeline.json?screen_name=kurogofwk&trim_user=1
+[Sat 09 28 03:05:58 2013]	exception:Alert	Module::factory@130	/Users/Rory1/Downloads/Kurogo-Mobile-Web-master/www/index.php	A KurogoModuleNotFound has occured: Module Users not found
+[Sat 09 28 03:06:08 2013]	url_retriever:Warning	URLDataRetriever->retrieveResponse@508	/home/pane?id=social&ajax=1	Gone for https://api.twitter.com/1/statuses/user_timeline.json?screen_name=kurogofwk&trim_user=1
+[Sat 09 28 03:06:08 2013]	url_retriever:Warning	URLDataRetriever->retrieveResponse@508	/home/pane?id=social&ajax=1	Gone for https://api.twitter.com/1/statuses/user_timeline.json?screen_name=kurogofwk&trim_user=1
+[Sat 09 28 03:06:29 2013]	maps:Warning	MapWebModule->getCurrentFeed@246	/map/index	Warning: unable to find feed data for feed 
+[Sat 09 28 03:06:29 2013]	maps:Warning	MapWebModule->getCurrentFeed@246	/map/index	Warning: unable to find feed data for feed 
+[Sat 09 28 03:07:31 2013]	url_retriever:Warning	URLDataRetriever->retrieveResponse@508	/home/pane?id=social&ajax=1	Gone for https://api.twitter.com/1/statuses/user_timeline.json?screen_name=kurogofwk&trim_user=1
