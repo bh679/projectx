@@ -1,14 +1,20 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 03:15:05
-         compiled from "findInclude:common/templates/footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:342513550524681f9234611-83158631%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 03:15:09
+         compiled from "findInclude:modules/map/templates/fullscreenfooter.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:850767980524681fd2fbf28-57572741%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '5fa1ce90517828d1f7dd1b47ebe9bab07ede9bcf' => 
+    '293524bce7d51d84995597515a617c3babbc9cb1' => 
     array (
-      0 => 'findInclude:common/templates/footer.tpl',
-      1 => 1364681342,
+      0 => 'findInclude:modules/map/templates/fullscreenfooter.tpl',
+      1 => 1364681344,
       2 => 'findInclude',
+    ),
+    'c3066e1ae50feeef46133b3b076dedfb92a2d7c5' => 
+    array (
+      0 => '/Users/Rory1/Documents/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/common/templates/footer-tablet.tpl',
+      1 => 1364681342,
+      2 => 'file',
     ),
     '2f5ebeb9bb2f25ee1eafd5d7712509610c879207' => 
     array (
@@ -29,7 +35,7 @@ $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '342513550524681f9234611-83158631',
+  'nocache_hash' => '850767980524681fd2fbf28-57572741',
   'function' => 
   array (
   ),
