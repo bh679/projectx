@@ -3445,108 +3445,126 @@ currentDir : /Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/c
 /* Minify_CSS_UriRewriter::$debugText
 
 docRoot    : /Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/www
-currentDir : /Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/modules/news/css
+currentDir : /Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/modules/athletics/css
+
+*/
+
+/* common.css */
+
+/* 1 */ #storybody img {
+/* 2 */   width: auto !important;
+/* 3 */   height: auto !important;
+/* 4 */   max-width: 100% !important;
+/* 5 */ }
+/* 6 */ 
+/* 7 */ .subtab {
+/* 8 */ 	margin: 15px 20px;
+/* 9 */ }
+/* Minify_CSS_UriRewriter::$debugText
+
+docRoot    : /Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/www
+currentDir : /Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/modules/athletics/css
 
 */
 
 /* tablet.css */
 
-/* 1  */ body.NewsModule .splitview-detailwrapper {
-/* 2  */ 	/* Background color for news listing and story; should be white in most cases */
-/* 3  */     background-color: #fff;
-/* 4  */ }
-/* 5  */ .news {
-/* 6  */     padding: 12px;
-/* 7  */     background-color: #fff;
-/* 8  */ }
-/* 9  */ #storybody img {
-/* 10 */   width: auto !important;
-/* 11 */   height: auto !important;
-/* 12 */   max-width: 100% !important;
-/* 13 */ }
-/* 14 */ #storysubhead
-/* 15 */ {
-/* 16 */     display: block;
+/* 1  */ .news {
+/* 2  */     padding: 15px;
+/* 3  */ }
+/* 4  */ h1.slugline a {
+/* 5  */     text-decoration: none;
+/* 6  */ }
+/* 7  */ 
+/* 8  */ #tabbodies .topnews-tabbody {
+/* 9  */ 	padding: 0;
+/* 10 */ }
+/* 11 */ 
+/* 12 */ .tabbody .results {
+/* 13 */ 	margin: 0;
+/* 14 */ }
+/* 15 */ #tabbodies .tabbody ul.nav {
+/* 16 */   background-color: transparent;
 /* 17 */ }
 /* 18 */ 
-/* 19 */ .dek {
-/* 20 */ 	margin: 14px 0
-/* 21 */ }
-/* 22 */ 
-/* 23 */ #image {
-/* 24 */   background-color: #333;
-/* 25 */   text-align: center;
-/* 26 */   margin-bottom: 10px;
-/* 27 */ }
-/* 28 */ 
-/* 29 */ #image img {
-/* 30 */   width: auto;
-/* 31 */   max-width: 100%;
-/* 32 */   height: auto;
-/* 33 */   display: block;
-/* 34 */   margin: 0 auto;
-/* 35 */ }
-/* 36 */ 
-/* 37 */ .dek:empty { margin: 0; } /* CSS 3: shrink if no content */
-/* 38 */ 
-/* 39 */ #thumbnail {float:right;margin: 2px 2px 12px 16px;}
-/* 40 */ 
-/* 41 */ #thumbnail img.thumbnail { width: auto; max-width: 100%; height: auto }
-/* 42 */ 
-/* 43 */ #thumbnail img.enlarge { float:right; margin-left: 4px; }
+/* 19 */ li.story {
+/* 20 */     height: 88px;
+/* 21 */ 	  margin: 0;
+/* 22 */     padding: 1px;
+/* 23 */     overflow: hidden;
+/* 24 */     position: relative;
+/* 25 */ }
+/* 26 */ 
+/* 27 */ li.story.noimage {
+/* 28 */     padding-left: 8px;
+/* 29 */ }
+/* 30 */ 
+/* 31 */ .results li.story a {
+/* 32 */     overflow: hidden;
+/* 33 */     position: relative;
+/* 34 */     margin: 0;
+/* 35 */     padding: 0;
+/* 36 */     height: 88px;
+/* 37 */ }
+/* 38 */ .results li.story a .ellipsis {
+/* 39 */     overflow: hidden;
+/* 40 */     margin: 6px 25px 6px 0;
+/* 41 */     line-height: 1.2em;
+/* 42 */     height: 76px;
+/* 43 */ }
 /* 44 */ 
-/* 45 */ #thumbnail div { float:right; margin-top: 2px; margin-right:-2px; }
-/* 46 */ 
-/* 47 */ #thumbnail a { text-align:right; font-size:64.7%; line-height: 2.72em; text-decoration:none; color:#777;}
-/* 48 */ 
-/* 49 */ #thumbnail a div { margin-top: -4px; }
-/* 50 */ 
+/* 45 */ .results li.story .thumbnail {
+/* 46 */     float:left;
+/* 47 */     margin: 0 8px 0 0;
+/* 48 */     width: 88px;
+/* 49 */     height: 88px;
+/* 50 */     background: transparent url("/device/tablet-computer-unknown/modules/athletics/images/athletics-placeholder.png") no-repeat left top;
 
 /* tablet.css */
 
-/* 51 */ .wp-caption {
-/* 52 */     width: auto !important;
-/* 53 */     font-size: 84%;
-/* 54 */     line-height: 1.2em;
-/* 55 */ }
-/* 56 */ 
-/* 57 */ a.external {
-/* 58 */     background-image: none !important;
-/* 59 */     padding-right: 0;
-/* 60 */ }
-/* 61 */ 
-/* 62 */ .sidenav2 a, .sidenav2 a:visited, .sidenavlabel {
-/* 63 */     /* Contrasting color for text on dark background just for photo gallery and detail views */
-/* 64 */     color: #808080;
-/* 65 */ }
-/* 66 */ 
+/* 51 */     background-size: 5.5em;
+/* 52 */ }
+/* 53 */ 
+/* 54 */ #bookmarkContainer {
+/* 55 */ 	margin: -2px -4px 6px 8px;
+/* 56 */ }
+/* 57 */ 
+/* 58 */ 
 /* Minify_CSS_UriRewriter::$debugText
 
 docRoot    : /Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/www
-currentDir : /Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/modules/news/css
-
-*/
-
-/* tablet-computer.css */
-
-/* 1 */ .news {
-/* 2 */     padding: 15px;
-/* 3 */ }
-/* 4 */ 
-/* Minify_CSS_UriRewriter::$debugText
-
-docRoot    : /Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/www
-currentDir : /Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/modules/news/css
+currentDir : /Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/modules/athletics/css
 
 */
 
 /* index-tablet.css */
 
-/* 1 */ body.PhotosModule {
-/* 2 */ 	background-color: #e6e6e6;
-/* 3 */ }
-/* 4 */ 
-/* 5 */ 
+/* 1  */ .tabbody {
+/* 2  */ position: relative;
+/* 3  */ min-height: 280px;
+/* 4  */ padding: 0px 8px;
+/* 5  */ }
+/* 6  */ 
+/* 7  */ .nav li.icon {
+/* 8  */   min-height: 0;
+/* 9  */   padding: 0;
+/* 10 */ }
+/* 11 */ .nav li.icon a {
+/* 12 */   min-height: 28px;
+/* 13 */   margin: 0;
+/* 14 */   padding: 13px 4px 7px 40px;
+/* 15 */ }
+/* 16 */ .nav li.icon a img {
+/* 17 */     width: 28px;
+/* 18 */     height: 28px;
+/* 19 */     top: 10px;
+/* 20 */     left: 6px;
+/* 21 */ }
+/* 22 */ 
+/* 23 */ .bookmarks-tabbody p {
+/* 24 */     margin-top: 8px;
+/* 25 */ }
+/* 26 */ 
 
 /* id::themeConfigModTimeChecker */
 

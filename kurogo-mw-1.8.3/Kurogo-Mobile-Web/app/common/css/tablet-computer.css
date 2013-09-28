@@ -77,6 +77,7 @@
   overflow-y: hidden;
   background-color: transparent;
   background-image: none;
+	font-family: flamauow;
 }
 /* menu background is on wrapper so it extends to the bottom of the page */
 #wrapper {
@@ -106,7 +107,7 @@
   max-width: 100%;
 }
 #navmenu .navmenu-items .navmenu-item {
-  border:none;
+padding: 6px;
 }
 #navmenu .navmenu-items .navmenu-module a {
   padding: 3px 6px 3px 38px;
@@ -211,6 +212,10 @@ table.section-search tr td {
 
 h1.slugline {
 	font-size: 175%;
+}
+
+#footer {
+	display:none;	
 }
 
 /* Desktop splitviews should have master list width scale with window width */

@@ -9,12 +9,11 @@ body {
 	background-image: @@@body_background_image@@@;
 	background-position: @@@body_background_position@@@;
 	background-repeat: @@@body_background_repeat@@@;
-	font: @@@base_font_size@@@/@@@base_font_line_height@@@ @@@primary_font_family@@@;
 }
 
 body, th, td, li, option, select, input, textarea {
 	/* Primary text style and color */
-	font-family: @@@primary_font_family@@@;
+	font-family: flamauow;
 	color: @@@primary_text_color@@@;
 }
 
@@ -130,6 +129,8 @@ dt, .label, .legend, .legend h2, .legend h3, .searchlegend {
 .breadcrumbs, .breadcrumbs a, .breadcrumbs a:visited, .pagetitle {
  	/* All breadcrumb links in nav bar */
 	color: @@@navbar_text_color@@@;
+	font-family: flamauow;
+	text-transform:uppercase;
 }
 
 
