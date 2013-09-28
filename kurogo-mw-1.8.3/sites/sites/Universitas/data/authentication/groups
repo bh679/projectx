@@ -1,4 +1,0 @@
-#example groups file
-#each line is a group with the following fields
-#group:gid:members
-#admin:10:alice,bob

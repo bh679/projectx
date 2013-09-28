@@ -1,7 +1,7 @@
 a:3:{s:10:"properties";a:7:{s:15:"inlineCSSBlocks";a:0:{}s:7:"cssURLs";a:0:{}s:22:"inlineJavascriptBlocks";a:0:{}s:28:"inlineJavascriptFooterBlocks";a:3:{i:0;s:143:"var CONFIG_MODULE = 'map';
 var MIN_LAT_SPAN = 5.36441802979E-6;
 var MIN_LON_SPAN = 1.07288360596E-5;
-var NO_RESULTS_FOUND = "No results found";";i:1;s:1118:"
+var NO_RESULTS_FOUND = "No results found";";i:1;s:1115:"
 /*
  * Copyright © 2010 - 2013 Modo Labs Inc. All rights reserved.
  *
@@ -12,8 +12,8 @@ var NO_RESULTS_FOUND = "No results found";";i:1;s:1118:"
  */
 
 mapLoader = new KGOGoogleMapLoader({
-    lat: -34.406325,
-    lon: 150.878223,
+    lat: 42.391484,
+    lon: -72.528863,
     zoom: 14,
     
     mapElement: "mapimage-61a6e3a7ce09f23e5603d4d9519452ee",
@@ -26,15 +26,15 @@ mapLoader.loadMap();
 
 mapLoader.addPlacemark(
     "http://localhost:8888/map/index?group=campus&_b=%5B%7B%22t%22%3A%22Map%22%2C%22lt%22%3A%22Map%22%2C%22p%22%3A%22index%22%2C%22a%22%3A%22%22%7D%5D",
-    new google.maps.Marker({position: new google.maps.LatLng(-34.406325,150.878223),
+    new google.maps.Marker({position: new google.maps.LatLng(42.391484,-72.528863),
 map: map,
 title: "Main Campus"}),
     {
         title: "Main Campus",
         subtitle: null,
         url: "http://localhost:8888/map/index?group=campus&_b=%5B%7B%22t%22%3A%22Map%22%2C%22lt%22%3A%22Map%22%2C%22p%22%3A%22index%22%2C%22a%22%3A%22%22%7D%5D",
-        lat: -34.406325,
-        lon: 150.878223
+        lat: 42.391484,
+        lon: -72.528863
     }
 );
 

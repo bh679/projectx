@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 03:16:46
+<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 08:05:10
          compiled from "findInclude:common/templates/share.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:14348297655246825e664560-73265663%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:4828442705246c5f69c6e00-74310883%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,13 +11,13 @@ $_smarty_tpl->decodeProperties(array (
       2 => 'findInclude',
     ),
   ),
-  'nocache_hash' => '14348297655246825e664560-73265663',
+  'nocache_hash' => '4828442705246c5f69c6e00-74310883',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
 )); /*/%%SmartyHeaderCode%%*/?>
-<?php if (!is_callable('smarty_modifier_escape')) include '/Users/Rory1/Documents/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/lib/smarty/plugins/modifier.escape.php';
+<?php if (!is_callable('smarty_modifier_escape')) include '/Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/lib/smarty/plugins/modifier.escape.php';
 ?><?php if ($_smarty_tpl->getVariable('shareEmailURL')->value||$_smarty_tpl->getVariable('shareURL')->value){?>
 <div id="share">
   <a onclick="showShare()"><img src="/common/images/share.png" width="44" height="38" /></a>

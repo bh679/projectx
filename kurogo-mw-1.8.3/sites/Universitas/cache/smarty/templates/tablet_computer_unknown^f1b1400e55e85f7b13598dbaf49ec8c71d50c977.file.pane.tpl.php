@@ -1,29 +1,29 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 07:43:04
+<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 08:04:58
          compiled from "/Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/modules/news/templates/pane.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:19227604215246c0c812cf15-81122117%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:13256863345246c5ea80d3b3-75486895%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'f1b1400e55e85f7b13598dbaf49ec8c71d50c977' => 
     array (
       0 => '/Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/modules/news/templates/pane.tpl',
-      1 => 1380352542,
+      1 => 1364681344,
       2 => 'file',
     ),
     'cc1e4fd664d22dde4b98f2b8f7a1e04fef3661ca' => 
     array (
       0 => '/Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/common/templates/paneStories.tpl',
-      1 => 1380352542,
+      1 => 1364681342,
       2 => 'file',
     ),
     '03e9aa6be3335735e8958aec999253e20330b71a' => 
     array (
       0 => '/Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/common/templates/pane.tpl',
-      1 => 1380352542,
+      1 => 1364681342,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '19227604215246c0c812cf15-81122117',
+  'nocache_hash' => '13256863345246c5ea80d3b3-75486895',
   'function' => 
   array (
   ),

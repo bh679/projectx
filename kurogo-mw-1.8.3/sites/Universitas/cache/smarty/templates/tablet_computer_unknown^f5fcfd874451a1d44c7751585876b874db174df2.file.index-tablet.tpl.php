@@ -1,53 +1,53 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 07:43:06
+<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 08:05:01
          compiled from "/Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/modules/home/templates/index-tablet.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:16619244535246c0ca4ac781-75150395%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:15003751215246c5ed6ed8a7-94090572%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'f5fcfd874451a1d44c7751585876b874db174df2' => 
     array (
       0 => '/Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/modules/home/templates/index-tablet.tpl',
-      1 => 1380352542,
+      1 => 1364681343,
       2 => 'file',
     ),
     '' => 
     array (
       0 => 'findInclude:common/templates/page/moduleDebug.tpl',
-      1 => 1380352542,
+      1 => 1364681342,
       2 => 'findInclude',
     ),
     'ec8fdfca076a77f2ac0a40faa474fcd23eeaef50' => 
     array (
       0 => '/Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/common/templates/header.tpl',
-      1 => 1380352542,
+      1 => 1364681342,
       2 => 'file',
     ),
     '44495b3df801e1f87a97c8aa4fdb6501efe34d76' => 
     array (
       0 => '/Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/common/templates/page/head.tpl',
-      1 => 1380352542,
+      1 => 1364681342,
       2 => 'file',
     ),
     'b192300eb02ed4a4bb336f2cb93908d1dde7bbdc' => 
     array (
       0 => '/Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/common/templates/page/navigation/navbar.tpl',
-      1 => 1380352542,
+      1 => 1364681342,
       2 => 'file',
     ),
     'a7bc7a3e2ccdae5d967f6032d92030fbccb67665' => 
     array (
       0 => '/Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/common/templates/page/login.tpl',
-      1 => 1380352542,
+      1 => 1364681342,
       2 => 'file',
     ),
     '5c2c333ed485cac5b38882cc2d071ff9421c7512' => 
     array (
       0 => '/Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/app/common/templates/search.tpl',
-      1 => 1380352542,
+      1 => 1364681342,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '16619244535246c0ca4ac781-75150395',
+  'nocache_hash' => '15003751215246c5ed6ed8a7-94090572',
   'function' => 
   array (
   ),
@@ -55,9 +55,9 @@ $_smarty_tpl->decodeProperties(array (
 )); /*/%%SmartyHeaderCode%%*/?>
 
   <?php $_template = new Smarty_Internal_Template("findInclude:common/templates/header.tpl", $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
-$_template->assign('scalable',false);$_template->properties['nocache_hash']  = '16619244535246c0ca4ac781-75150395';
+$_template->assign('scalable',false);$_template->properties['nocache_hash']  = '15003751215246c5ed6ed8a7-94090572';
 $_tpl_stack[] = $_smarty_tpl; $_smarty_tpl = $_template;?>
-<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 07:43:06
+<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 08:05:01
          compiled from "findInclude:common/templates/header.tpl" */ ?>
 <?php if (!is_callable('smarty_modifier_capitalize')) include '/Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/lib/smarty/plugins/modifier.capitalize.php';
 ?><?php if (!$_smarty_tpl->getVariable('webBridgeAjaxContentLoad')->value&&!$_smarty_tpl->getVariable('ajaxContentLoad')->value){?><?php echo '<?xml';?> version="1.0" encoding="UTF-8"<?php echo '?>';?>
@@ -65,9 +65,9 @@ $_tpl_stack[] = $_smarty_tpl; $_smarty_tpl = $_template;?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
   <?php $_template = new Smarty_Internal_Template("findInclude:common/templates/page/head.tpl", $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
-$_template->properties['nocache_hash']  = '2339322975246c0ca4be357-54472102';
+$_template->properties['nocache_hash']  = '14864266485246c5ed703ea2-70018734';
 $_tpl_stack[] = $_smarty_tpl; $_smarty_tpl = $_template;?>
-<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 07:43:06
+<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 08:05:01
          compiled from "findInclude:common/templates/page/head.tpl" */ ?>
 <?php if (!is_callable('smarty_modifier_escape')) include '/Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/lib/smarty/plugins/modifier.escape.php';
 ?>
@@ -293,9 +293,9 @@ Module<?php }?><?php if ($_smarty_tpl->getVariable('moduleFillScreen')->value){?
     <?php }else{ ?>
       
         <?php $_template = new Smarty_Internal_Template("findInclude:common/templates/page/navigation/navbar.tpl", $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
-$_template->properties['nocache_hash']  = '2339322975246c0ca4be357-54472102';
+$_template->properties['nocache_hash']  = '14864266485246c5ed703ea2-70018734';
 $_tpl_stack[] = $_smarty_tpl; $_smarty_tpl = $_template;?>
-<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 07:43:06
+<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 08:05:01
          compiled from "findInclude:common/templates/page/navigation/navbar.tpl" */ ?>
 <?php ob_start(); ?>
   
@@ -442,9 +442,9 @@ if ($_smarty_tpl->tpl_vars['breadcrumb']->total > 0){
 
     <?php }else{ ?>
       <?php $_template = new Smarty_Internal_Template("findInclude:common/templates/page/navigation/navmenuButton.tpl", $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
-$_template->properties['nocache_hash']  = '3720185865246c0ca7fb1a3-89428629';
+$_template->properties['nocache_hash']  = '7255907325246c5edafb084-40525988';
 $_tpl_stack[] = $_smarty_tpl; $_smarty_tpl = $_template;?>
-<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 07:43:06
+<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 08:05:01
          compiled from "findInclude:common/templates/page/navigation/navmenuButton.tpl" */ ?>
 <?php if ($_smarty_tpl->getVariable('navigationModules')->value){?>
   <div class="navmenu-button" onclick="return handleNavmenuButton(this);">
@@ -464,9 +464,9 @@ $_tpl_stack[] = $_smarty_tpl; $_smarty_tpl = $_template;?>
 
     </div>
     <?php $_template = new Smarty_Internal_Template("findInclude:common/templates/page/login.tpl", $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
-$_template->properties['nocache_hash']  = '3720185865246c0ca7fb1a3-89428629';
+$_template->properties['nocache_hash']  = '7255907325246c5edafb084-40525988';
 $_tpl_stack[] = $_smarty_tpl; $_smarty_tpl = $_template;?>
-<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 07:43:06
+<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 08:05:01
          compiled from "findInclude:common/templates/page/login.tpl" */ ?>
 <?php if ($_smarty_tpl->getVariable('showLogin')->value){?>
   <div class="loginstatus">
@@ -498,18 +498,18 @@ $_tpl_stack[] = $_smarty_tpl; $_smarty_tpl = $_template;?>
 
     <?php }else{ ?>
       <?php $_template = new Smarty_Internal_Template("findInclude:common/templates/page/navigation/navmenu.tpl", $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
-$_template->assign('navmenuID',"navmenu");$_template->properties['nocache_hash']  = '2339322975246c0ca4be357-54472102';
+$_template->assign('navmenuID',"navmenu");$_template->properties['nocache_hash']  = '14864266485246c5ed703ea2-70018734';
 $_tpl_stack[] = $_smarty_tpl; $_smarty_tpl = $_template;?>
-<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 07:43:06
+<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 08:05:01
          compiled from "findInclude:common/templates/page/navigation/navmenu.tpl" */ ?>
 <?php if ($_smarty_tpl->getVariable('navigationModules')->value){?>
   <?php if ($_smarty_tpl->getVariable('navmenuID')->value){?><div id="navmenu"><?php }?>
     <ul class="navmenu-items">
       <?php if ($_smarty_tpl->getVariable('configModule')->value==$_smarty_tpl->getVariable('homeModuleID')->value&&$_smarty_tpl->getVariable('showFederatedSearch')->value){?>
         <li class="navmenu-item navmenu-search"><?php $_template = new Smarty_Internal_Template("findInclude:common/templates/search.tpl", $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
-$_template->properties['nocache_hash']  = '19480716835246c0cab51682-85601077';
+$_template->properties['nocache_hash']  = '14973273765246c5edec5125-11998825';
 $_tpl_stack[] = $_smarty_tpl; $_smarty_tpl = $_template;?>
-<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 07:43:06
+<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 08:05:01
          compiled from "findInclude:common/templates/search.tpl" */ ?>
 <?php if (!is_callable('smarty_modifier_escape')) include '/Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/lib/smarty/plugins/modifier.escape.php';
 ?><?php ob_start(); ?>
@@ -629,9 +629,9 @@ if ($_smarty_tpl->_count($_from) > 0){
         <div id="footer">
           <?php if ($_smarty_tpl->getVariable('userContextList')->value){?>
           <?php $_template = new Smarty_Internal_Template("findInclude:common/templates/page/navigation/userContextList.tpl", $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
-$_template->assign('navContainerID',"navmenu");$_template->properties['nocache_hash']  = '19480716835246c0cab51682-85601077';
+$_template->assign('navContainerID',"navmenu");$_template->properties['nocache_hash']  = '14973273765246c5edec5125-11998825';
 $_tpl_stack[] = $_smarty_tpl; $_smarty_tpl = $_template;?>
-<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 07:43:06
+<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 08:05:02
          compiled from "findInclude:common/templates/page/navigation/userContextList.tpl" */ ?>
 <?php if (!is_callable('smarty_modifier_escape')) include '/Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/lib/smarty/plugins/modifier.escape.php';
 ?><?php if ($_smarty_tpl->getVariable('userContextListStyle')->value!='none'){?>
@@ -692,9 +692,9 @@ if ($_smarty_tpl->tpl_vars['contextItem']->total > 0){
 <?php $_smarty_tpl = array_pop($_tpl_stack);?><?php unset($_template);?>
           <?php }?>
           <?php $_template = new Smarty_Internal_Template("findInclude:common/templates/page/credits.tpl", $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
-$_template->properties['nocache_hash']  = '19480716835246c0cab51682-85601077';
+$_template->properties['nocache_hash']  = '14973273765246c5edec5125-11998825';
 $_tpl_stack[] = $_smarty_tpl; $_smarty_tpl = $_template;?>
-<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 07:43:06
+<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 08:05:02
          compiled from "findInclude:common/templates/page/credits.tpl" */ ?>
 
   <div class="copyright">
@@ -718,9 +718,9 @@ $_tpl_stack[] = $_smarty_tpl; $_smarty_tpl = $_template;?>
 <?php /*  End of included template "findInclude:common/templates/page/credits.tpl" */ ?>
 <?php $_smarty_tpl = array_pop($_tpl_stack);?><?php unset($_template);?>
           <?php $_template = new Smarty_Internal_Template("findInclude:common/templates/page/deviceDetection.tpl", $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
-$_template->properties['nocache_hash']  = '19480716835246c0cab51682-85601077';
+$_template->properties['nocache_hash']  = '14973273765246c5edec5125-11998825';
 $_tpl_stack[] = $_smarty_tpl; $_smarty_tpl = $_template;?>
-<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 07:43:06
+<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 08:05:02
          compiled from "findInclude:common/templates/page/deviceDetection.tpl" */ ?>
 
   <?php if ($_smarty_tpl->getVariable('configModule')->value==$_smarty_tpl->getVariable('homeModuleID')->value&&$_smarty_tpl->getVariable('showDeviceDetection')->value){?>
@@ -740,9 +740,9 @@ $_tpl_stack[] = $_smarty_tpl; $_smarty_tpl = $_template;?>
 <?php /*  End of included template "findInclude:common/templates/page/deviceDetection.tpl" */ ?>
 <?php $_smarty_tpl = array_pop($_tpl_stack);?><?php unset($_template);?>
           <?php $_template = new Smarty_Internal_Template("findInclude:common/templates/page/moduleDebug.tpl", $_smarty_tpl->smarty, $_smarty_tpl, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null);
-$_template->properties['nocache_hash']  = '19480716835246c0cab51682-85601077';
+$_template->properties['nocache_hash']  = '14973273765246c5edec5125-11998825';
 $_tpl_stack[] = $_smarty_tpl; $_smarty_tpl = $_template;?>
-<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 07:43:06
+<?php /* Smarty version Smarty-3.0.7, created on 2013-09-28 08:05:02
          compiled from "findInclude:common/templates/page/moduleDebug.tpl" */ ?>
 <?php if (!is_callable('smarty_modifier_escape')) include '/Users/mac/Desktop/projectx/kurogo-mw-1.8.3/Kurogo-Mobile-Web/lib/smarty/plugins/modifier.escape.php';
 ?>
